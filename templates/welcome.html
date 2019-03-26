@@ -1,0 +1,8 @@
+<!--picture from Pexels.com -->
+{% extends "base.html" %}
+{% block content %}
+        <h1>Welcome, {{user}}! You are now part of the cloud.</h1>
+        <img src="{{url_for('static',filename='cloud.jpg')}}" height=500px width=500px >
+        
+
+{% endblock %}
